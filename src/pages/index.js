@@ -90,7 +90,14 @@ const IndexPage = () => {
             <div id="experience" className='-translate-y-16'/>
             <h1 className='text-2xl py-4 font-medium'>Experience</h1>
             <ExperienceEntry
-              date={'Sept\u00a02019 - Present'}
+              date={'Jan\u00a02025 - Present'}
+              title={'Technical Lead - Generative AI'}
+              company={'Wipro, Chennai'}
+              description={'Working for Alliaz client as a technical lead for building health care products which provides necessary health tips and connect the doctor on time for patients.'}
+              tags={['Python', 'LLM', 'RAG', 'MultiAgent Framework']}
+            />
+            <ExperienceEntry
+              date={'Sept\u00a02019 - Dec\u00a02024'}
               title={'Generative AI Developer'}
               company={'Cognizant Technology Solutions, Chennai'}
               description={'Led the development and deployment of advanced Generative AI solutions using LangChain and Azure OpenAI models, and the Microsoft Autogen framework, driving innovation and digital transformation in AI applications'}
